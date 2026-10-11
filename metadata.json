@@ -1,0 +1,6 @@
+{
+  "name": "Roblox AI Nexus - Blox Studio & Universe Hub",
+  "description": "Platform Roblox bertema AI generasi terbaru dengan Roblox Studio Luau Copilot, 3D Blox Sandbox, AI Avatar Creator, dan integrasi GitHub Rojo Developer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

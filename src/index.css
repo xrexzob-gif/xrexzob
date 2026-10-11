@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --blox-bg: #0b0c10;
+    --blox-surface: #14161c;
+    --blox-surface-elevated: #1e2129;
+    --blox-border: #2a2e39;
+    --blox-primary: #00e5ff;
+    --blox-accent: #00ff88;
+    --blox-roblox-red: #00a2ff;
+  }
+
+  body {
+    background-color: #0d0f12;
+    color: #e6e8eb;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Custom stylish scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #111317;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2a2d36;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3c424f;
+  }
+}
+
+.font-fredoka {
+  font-family: 'Fredoka', cursive, sans-serif;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Authentic Roblox studs texture overlay */
+.roblox-studs-pattern {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.06) 1.5px, transparent 1.5px);
+  background-size: 18px 18px;
+}
+
+.roblox-cyber-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 229, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 229, 255, 0.04) 1px, transparent 1px);
+}
+
+/* Glow effects */
+.glow-cyan {
+  box-shadow: 0 0 20px -3px rgba(0, 229, 255, 0.35);
+}
+
+.glow-emerald {
+  box-shadow: 0 0 20px -3px rgba(0, 255, 136, 0.35);
+}
+
+.glow-purple {
+  box-shadow: 0 0 20px -3px rgba(176, 38, 255, 0.35);
+}
